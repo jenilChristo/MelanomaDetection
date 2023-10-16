@@ -12,9 +12,8 @@ Why Melanoma is fatal ?
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
+
 
 ## General Information
 * Data Reading/Data Understanding → Defining the path for train and test images
@@ -44,13 +43,13 @@ Why Melanoma is fatal ?
 ## Conclusions
 - This project has 3 models to investigate and get better model for prediction.
 - Model 1 : Simple CNN model+scalling  without dropouts - Extreme overfitting
-<img src="https://github.com/jenilChristo/MelanomaDetection/blob/main/image1.PNG" alt="drawing" style="width:150px;"/>
+<img src="https://github.com/jenilChristo/MelanomaDetection/blob/main/image1.PNG" alt="drawing" style="width:350px;"/>
 
 - Model 2: CNN +data augmentation layer+dropout .Overfitting reduced . But accuracy was very low even at 20 epochs it was 50% approx .Underfitted model 
-<img src="https://github.com/jenilChristo/MelanomaDetection/blob/main/image2.PNG" alt="drawing" style="width:150px;"/>
+<img src="https://github.com/jenilChristo/MelanomaDetection/blob/main/image2.PNG" alt="drawing" style="width:350px;"/>
 
 - Model 3 : Used Augmentor added 500 more augmented images and trained for 50 epoches. There is steady increasing in both validation accuracy and train accuracy with not much variations in both which is ideal case for model.
-<img src="https://github.com/jenilChristo/MelanomaDetection/blob/main/image3.PNG" alt="drawing" style="width:150px;"/>
+<img src="https://github.com/jenilChristo/MelanomaDetection/blob/main/image3.PNG" alt="drawing" style="width:350px;"/>
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
